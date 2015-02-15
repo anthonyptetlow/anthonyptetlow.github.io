@@ -9,15 +9,29 @@
 
 a i {
 	color: #84C68C;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
 }
 
 
-.contactLinks {
+.contactLinks i {
 	font-size: 32px;
+	padding: 16px;
 }
 
 .contactLinks a {
 	margin: 50px;
+}
+
+.contactLinks i:hover {
+	font-size: 64px;
+	padding: 0px;
 }
 
 body {
